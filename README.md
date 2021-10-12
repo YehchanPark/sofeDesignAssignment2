@@ -1,5 +1,5 @@
-# sofeDesignAssignment2
-Software Design Assignment 2 Group 25
+# Assignment 3: Architecture patterns and styles
+Software Design Assignment 3 Group 25
 ## Table of Contents
 
 * [Exercise1](https://github.com/YehchanPark/sofeDesignAssignment2/tree/main/code/Exercise1)
