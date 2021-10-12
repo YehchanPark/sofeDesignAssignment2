@@ -5,6 +5,7 @@ Software Design Assignment 2 Group 25
 * [Exercise1](https://github.com/YehchanPark/sofeDesignAssignment2/tree/main/code/Exercise1)
 * [Exercise2](https://github.com/YehchanPark/sofeDesignAssignment2/tree/main/code/Exercise2)
 * [Exercise3](https://github.com/YehchanPark/sofeDesignAssignment2/tree/main/code/Exercise3)
+* [Exercise4](https://github.com/YehchanPark/sofeDesignAssignment2/blob/main/Exercise%204.pdf)
 
 ### Group Members
 Banujan Sutheswaran (100750620)\
