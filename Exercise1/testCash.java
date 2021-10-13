@@ -9,7 +9,7 @@ public class testCash {
         cash.setCurrentProductUPC(key.setUPCCode("012345678905"));//Sets the current product to the product at this upc
         cash.getCurrentProductInfo();//Outputs the product info
 
-        cash.setCurrentProductUPC(scan.scannedUPCCode("112345678905"));//Same as before, but with a different upc
+        cash.setCurrentProductUPC(scan.scannedUPCCode("112345678905"));//Same as before, but with a different upc and scanner
         cash.getCurrentProductInfo();
 
     }

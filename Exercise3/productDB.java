@@ -17,15 +17,15 @@ public class productDB {
 
 
 
-    public Product GetProductInfo(long UPCCode){
+    public Product GetProductInfo(long UPCCode){//Uses the given upc code to find a products information
     
-        for (int i = 0; i < productList.length; i++) {
-            if(productList[i].getUPCCODE() == UPCCode){
-                return productList[i];
+        for (int i = 0; i < productList.length; i++) {//Checks for each element of the array
+            if(productList[i].getUPCCODE() == UPCCode){//If the given upccode matches the product's upc code
+                return productList[i];//Return that product
             }
 
         }
-       return null;
+       return null;//If it is unable to find the product, it will return a null
     }
 
    }

@@ -10,10 +10,10 @@ public class Product {
         this.price=price;
     }
 
+    //Getters
     public long getUPCCODE() {
         return UPCCODE;
     }
-
 
     public String getName() {
         return name;
