@@ -1,7 +1,7 @@
 package Exercise1;
 
 public class productDB {//Product database class
-    //list of products
+    //List of products
     Product apple = new Product("012345678905","Apple",1.00);
     Product grapes = new Product("112345678905","Grapes",1.25);
     Product pear = new Product("212345678905","Pear",1.10);

@@ -6,12 +6,12 @@ public class CashRegister {
     TicketPrinter ticketPrinter = new TicketPrinter();
     Product currentProduct;
 
-    public void setCurrentProductUPC(long UPCCode){
-        if(db.GetProductInfo(UPCCode)!=null){
+    public void setCurrentProductUPC(long UPCCode){//Sets the current product to be at the given upc code
+        if(db.GetProductInfo(UPCCode)!=null){//As long as it's not null
             currentProduct=db.GetProductInfo(UPCCode);
         }
         else {
-            display.displayText("Invalid UPCCODE");
+            display.displayText("Invalid UPCCODE");//If it is null, it will not work
         }
     }
 

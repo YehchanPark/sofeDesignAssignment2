@@ -1,7 +1,7 @@
 package Exercise2;
 
-public class Product {
-    long UPCCODE;
+public class Product {//Product object
+    long UPCCODE;//UPC code is a long since int does not store enough digits
     String name;
     double price;
     public Product(String UPCCODE, String name, double price){
@@ -10,6 +10,7 @@ public class Product {
         this.price=price;
     }
 
+    //Getters
     public long getUPCCODE() {
         return UPCCODE;
     }
